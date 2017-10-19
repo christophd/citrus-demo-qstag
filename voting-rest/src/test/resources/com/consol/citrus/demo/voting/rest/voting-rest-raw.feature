@@ -22,7 +22,6 @@ Content-Type:text/plain;charset=UTF-8
 """
 HTTP/1.1 200
 X-Application-Context:@contains('application')@
-Transfer-Encoding:chunked
 Date: @ignore@
 
 """
@@ -42,7 +41,6 @@ Content-Type:text/plain;charset=UTF-8
 HTTP/1.1 200 OK
 Content-Type:@equalsIgnoreCase('application/json;charset=UTF-8')@
 X-Application-Context:@contains('application')@
-Transfer-Encoding:chunked
 Date: @ignore@
 
 []
@@ -69,7 +67,6 @@ Content-Type:application/json;charset=UTF-8
 HTTP/1.1 200 OK
 Content-Type:@equalsIgnoreCase('application/json;charset=UTF-8')@
 X-Application-Context:@contains('application')@
-Transfer-Encoding:chunked
 Date: @ignore@
 
 {
@@ -96,7 +93,6 @@ Content-Type:text/plain;charset=UTF-8
 HTTP/1.1 200 OK
 Content-Type:@equalsIgnoreCase('application/json;charset=UTF-8')@
 X-Application-Context:@contains('application')@
-Transfer-Encoding:chunked
 Date: @ignore@
 
 [
